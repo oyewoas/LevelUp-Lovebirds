@@ -9,14 +9,11 @@
       but we want ours to be 10px so we say 10px/16px x 100% */
     font-size: 62.5%; }
     @media (max-width: 75em) {
-      html {
-        font-size: 56.25%; } }
+       }
     @media (max-width: 56.25em) {
-      html {
-        font-size: 50%; } }
+      }
     @media (min-width: 112.5em) {
-      html {
-        font-size: 75%; } 
+      
     }
   
   body {
