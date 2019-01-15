@@ -128,3 +128,27 @@
     padding-left: 15rem;
     padding-right: 15rem;
 }
+
+.form-control{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 0.05rem solid #c6c7c5;
+}
+
+.form-btn button{
+    border-radius: 30px;
+    border: none;
+    padding: 0.5rem 4rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    background-color: #696969;
+}
+
+.form-btn button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #696969;
+
+
+}
