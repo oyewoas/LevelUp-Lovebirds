@@ -19,6 +19,8 @@
   body {
     box-sizing: border-box;
     padding: 0rem; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .container-fluid{
     padding-left: 1.5rem;
@@ -54,6 +56,10 @@
 .carousel-caption{
    
 }
+.color-white{
+    color: #ffffff;
+}
+
 
 .carousel-heading{
     font-size: 2.5rem;
@@ -72,3 +78,17 @@
     padding-bottom: 1rem;
     
 }
+
+.carousel-indicators > .active{
+    background-color: #ffffff;
+}
+
+.carousel-indicators .inactive{
+    background-color:#cdddc3
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
