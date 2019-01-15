@@ -1,0 +1,94 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; }
+  
+  /* Set the root font size in the html tag then use rem in other tags */
+  html {
+    /* Default browser fontsize is 16px 
+      but we want ours to be 10px so we say 10px/16px x 100% */
+    font-size: 62.5%; }
+    @media (max-width: 75em) {
+       }
+    @media (max-width: 56.25em) {
+      }
+    @media (min-width: 112.5em) {
+      
+    }
+  
+  body {
+    box-sizing: border-box;
+    padding: 0rem; 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-fluid{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.col-md-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.padding_left10{
+    padding-left: 1rem;
+}
+.padding_right10{
+    padding-right:1rem;
+}
+
+.carousel-section{
+    background-color: #a4c4b5;
+    
+    
+}
+
+
+.carousel-image{
+    width: 50px;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 20rem;   
+}
+
+.carousel-caption{
+   
+}
+.color-white{
+    color: #ffffff;
+}
+
+
+.carousel-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-paragraph{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.carousel-indicators{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.carousel-indicators > .active{
+    background-color: #ffffff;
+}
+
+.carousel-indicators .inactive{
+    background-color:#cdddc3
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
