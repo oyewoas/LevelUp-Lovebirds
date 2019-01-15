@@ -8,13 +8,6 @@
     /* Default browser fontsize is 16px 
       but we want ours to be 10px so we say 10px/16px x 100% */
     font-size: 62.5%; }
-    @media (max-width: 75em) {
-       }
-    @media (max-width: 56.25em) {
-      }
-    @media (min-width: 112.5em) {
-      
-    }
   
   body {
     box-sizing: border-box;
@@ -61,7 +54,7 @@
 
 
 .carousel-heading{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: bold;
 }
 
@@ -163,7 +156,9 @@
 }
 
 
-
+.btn, .btn:visited{
+    transition: all .2s;
+}
 .form-btn .btn:active, .btn:focus {
     /* button behaviour on clicking it */
     outline: none;
