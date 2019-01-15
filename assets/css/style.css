@@ -120,7 +120,10 @@
     font-size: 1.8rem;
 
 }
-
+.label{
+    color:#c6c7c5;
+    font-weight: bolder;
+}
 .form{
     padding-left: 15rem;
     padding-right: 15rem;
