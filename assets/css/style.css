@@ -135,7 +135,7 @@
     border-bottom: 0.05rem solid #c6c7c5;
 }
 
-.form-btn button{
+.form-btn .btn{
     border-radius: 30px;
     border: none;
     padding: 0.5rem 4rem;
@@ -145,10 +145,22 @@
     background-color: #696969;
 }
 
-.form-btn button:hover{
+.form-btn .btn:hover{
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: #696969;
-
-
+    transform: translateY(-3px);
+    transition-delay: 0.7s;
+    transition-duration: 0.6s;
+    /* box shadow on hover x y direction, blur , rgba shadow */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
 }
+
+
+
+.form-btn .btn:active, .btn:focus {
+    /* button behaviour on clicking it */
+    outline: none;
+    transform: translateY(-1px);
+    opacity: 1;
+ }
