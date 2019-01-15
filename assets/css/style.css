@@ -1,0 +1,40 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; }
+  
+  /* Set the root font size in the html tag then use rem in other tags */
+  html {
+    /* Default browser fontsize is 16px 
+      but we want ours to be 10px so we say 10px/16px x 100% */
+    font-size: 62.5%; }
+    @media (max-width: 75em) {
+      html {
+        font-size: 56.25%; } }
+    @media (max-width: 56.25em) {
+      html {
+        font-size: 50%; } }
+    @media (min-width: 112.5em) {
+      html {
+        font-size: 75%; } 
+    }
+  
+  body {
+    box-sizing: border-box;
+    padding: 0rem; 
+}
+.container-fluid{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-md-6{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.padding_left10{
+    padding-left: 1rem;
+}
+.padding_right10{
+    padding-right:1rem;
+}
