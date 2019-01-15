@@ -4,6 +4,20 @@
         padding-left: 15rem;
         padding-bottom: 24rem;
     }
+    .form-section {
+        padding-top: 6rem;
+        background-color: #ffffff;
+    }
+    .heading {
+        
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+       
+    }
+    .form {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
 }
 @media (max-width: 56.25em) {
     .carousel-image{
@@ -12,7 +26,7 @@
         padding-bottom: 30rem;
     }
     .carousel-heading {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: bold;
     }
     .carousel-paragraph {
@@ -30,6 +44,10 @@
     ol {
        
         margin-bottom: 7rem;
+    }
+    .form {
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 }
 @media (min-width: 112.5em) {
