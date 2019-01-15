@@ -24,8 +24,8 @@
     padding: 0rem; 
 }
 .container-fluid{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .col-md-6{
@@ -37,4 +37,41 @@
 }
 .padding_right10{
     padding-right:1rem;
+}
+
+.carousel-section{
+    background-color: #a4c4b5;
+    
+    
+}
+
+
+.carousel-image{
+    width: 50px;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    padding-top: 5rem;
+    padding-bottom: 20rem;   
+}
+
+.carousel-caption{
+   
+}
+
+.carousel-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-paragraph{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.carousel-indicators{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
 }
